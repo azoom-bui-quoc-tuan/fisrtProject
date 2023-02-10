@@ -1,0 +1,32 @@
+{
+    "name": "basenodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start:dev": "nodemon ./src/app.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/azoom-bui-quoc-tuan/fisrtProject.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/azoom-bui-quoc-tuan/fisrtProject/issues"
+    },
+    "homepage": "https://github.com/azoom-bui-quoc-tuan/fisrtProject#readme",
+    "dependencies": {
+        "@types/express": "^4.17.17",
+        "express": "^4.18.2",
+        "prettier": "^2.8.4",
+        "ts-node": "^10.9.1"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.51.0",
+        "@typescript-eslint/parser": "^5.51.0",
+        "eslint": "^8.33.0"
+    }
+}
